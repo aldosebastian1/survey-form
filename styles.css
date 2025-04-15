@@ -1,0 +1,117 @@
+/* General Styling */  
+body {  
+    font-family: Arial, sans-serif;  
+    /* background-color: rgba(0, 0, 0, 0.3);   */
+    background: linear-gradient(45deg, #0c4c4a, #0c4c89);
+
+    margin: 0;  
+    padding: 20px;  
+}  
+
+h1 {  
+    text-align: center;  
+    /* color: #333;   */
+    color: white;
+}  
+
+p {  
+    text-align: center;  
+    /* color: #666;   */
+    color: white;
+}  
+
+/* Form Styling */  
+form {  
+    background: white;  
+    border-radius: 10px;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);  
+    margin: 0 auto;  
+    padding: 30px;  
+    max-width: 600px;  
+    min-width: 300px;
+}  
+
+/* Label Styling */  
+label {  
+    display: block;  
+    margin-bottom: 10px;  
+    font-weight: bold;  
+    color: #333;  
+}  
+
+/* Input Fields */  
+input[type="text"],  
+input[type="email"],  
+input[type="number"],  
+textarea,  
+select {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 15px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    font-size: 16px;  
+}  
+
+/* Textarea Specific */  
+textarea {  
+    width: 100%;                 
+    max-width: 500px;          
+    margin: 20px auto;            
+    display: block;            
+    padding: 10px;             
+    border: 1px solid #000000;   
+    border-radius: 5px;       
+    resize: vertical;         
+}  
+
+/* Optional: Centering the controls */  
+/* form {  
+    display: flex;  
+    flex-direction: column;    
+    align-items: center;      
+}   */
+
+/* Button Styling */  
+button {  
+    background-color: #5cb85c;  
+    color: white;  
+    border: none;  
+    padding: 10px 20px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 16px;  
+    width: 100%;  
+}  
+
+button:hover {  
+    background-color: #4cae4c;  
+}  
+
+/* Legend and Optional Text */  
+legend {  
+    font-weight: bold;  
+    margin-top: 20px;  
+}  
+
+small {  
+    font-size: 12px;  
+    color: #777;  
+}  
+
+/* Checkbox and Radio Group Styling */  
+input[type="checkbox"],  
+input[type="radio"] {  
+    margin-right: 10px;  
+}  
+
+/* Responsive Adjustments */  
+@media (max-width: 600px) {  
+    form {  
+        padding: 15px;  
+    }  
+
+    button {  
+        padding: 8px;  
+    }  
+}  
